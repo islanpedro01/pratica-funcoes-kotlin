@@ -82,8 +82,8 @@ fun calcularMedia(materia: String): Double {
     } else {
         val listaNotas = materiasENotas[materia]
         if (!listaNotas.isNullOrEmpty()) {
-            val soma = listaNotas.sum() // Soma todos os elementos da lista
-            val media = soma / listaNotas.size // Divide pela quantidade de elementos
+            val soma = listaNotas.sum()
+            val media = soma / listaNotas.size 
             return media
         } else {
             println("A lista de notas para $materia está vazia ou nula")
